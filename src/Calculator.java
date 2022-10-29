@@ -8,5 +8,33 @@ public class Calculator
         this.num2 = num2;
     }
 
+    double multiply()
+    {
+        return num1 * num2;
+    }
 
+    double divide()
+    {
+        return num1 / num2;
+    }
+
+    double add()
+    {
+        return num1 + num2;
+    }
+
+    double subtract()
+    {
+        return num1 - num2;
+    }
+
+    double mod()
+    {
+        return num1 % num2;
+    }
+
+    double power()
+    {
+        return Math.pow(num1, num2);
+    }
 }
